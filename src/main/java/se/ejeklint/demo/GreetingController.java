@@ -9,7 +9,7 @@ public class GreetingController {
 
     @GetMapping("/")
     public String rootGreeting() {
-        return "Root-saker äro nyttiga!";
+        return "Root-saker äro goda!";
     }
     
     @GetMapping("/greeting")
